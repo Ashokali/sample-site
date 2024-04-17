@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main {
+  @apply h-screen flex flex-col items-center justify-center bg-black;
+}
+
+.main-head {
+  @apply text-white text-3xl font-bold animate-bounce;
+}
+
+.hello-btn {
+  @apply text-2xl font-bold text-white bg-red-500 border-2 py-2 px-3 rounded-xl hover:bg-blue-500 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 mt-5;
+}
