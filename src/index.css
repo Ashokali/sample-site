@@ -7,7 +7,7 @@
 }
 
 .main-head {
-  @apply text-white text-3xl font-bold animate-bounce;
+  @apply text-white text-3xl font-bold;
 }
 
 .hello-btn {
